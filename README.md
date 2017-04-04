@@ -1,8 +1,8 @@
-# React Initial State
+<!-- # React Initial State
 
-## Overview 
+## Overview
 
-In this lesson, we'll explain the concept of component state. 
+In this lesson, we'll explain the concept of component state.
 
 ## Objectives
 1. Explain how to define a component's initial state
@@ -32,7 +32,7 @@ Let's say we have a `<ToggleButton />` component. A toggle button has an on and 
 class ToggleButton extends React.Component {
   constructor() {
     super();
-    
+
     this.state = {
       isEnabled: false
     };
@@ -73,7 +73,7 @@ It's important to try and keep your state **as small as possible**. You should s
 class Address extends React.Component {
   constructor(props) {
     super(props);
-    
+
     this.state = {
       fullAddress: `${props.street}, ${props.city}`
     }
@@ -108,4 +108,4 @@ While component state is a very powerful feature, it should be used as sparingly
 - [Props vs. state](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md)
 - [Props in getInitialState Is an Anti-Pattern](https://facebook.github.io/react/tips/props-in-getInitialState-as-anti-pattern.html)
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/react-initial-state'>Initial State</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/react-initial-state'>Initial State</a> on Learn.co and start learning to code for free.</p> -->
